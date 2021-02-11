@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Layout from "../components/Layout";
 
 export default function Home() {
   return (
@@ -11,9 +10,7 @@ export default function Home() {
           content="Brighton, Beach, Nodules of Flint"
         ></meta>
       </Head>
-      <Layout>
-        <h1>Nodules of Flint</h1>
-      </Layout>
+      <h1>Nodules of Flint</h1>
     </div>
   );
 }
