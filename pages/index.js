@@ -13,10 +13,9 @@ export default function LandingPage() {
         ></meta>
       </Head>
       <img
+        className={landingStyles.animation}
         src="/nodules-of-flint-animation.gif"
         alt="animation showing various flint rocks"
-        width="500"
-        height="500"
       />
       <div className={landingStyles.enter}>
         <Link href="/homepage">Enter</Link>
