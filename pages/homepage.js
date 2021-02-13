@@ -1,4 +1,5 @@
 import Head from "next/head";
+import ImageGrid from "../components/ImageGrid";
 
 const homepage = () => {
   return (
@@ -6,7 +7,7 @@ const homepage = () => {
       <Head>
         <title>Nodules of Flint</title>
       </Head>
-      <h1>Homepage</h1>
+      <ImageGrid />
     </div>
   );
 };
