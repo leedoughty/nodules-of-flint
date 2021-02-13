@@ -1,14 +1,16 @@
 import Head from "next/head";
 import ImageGrid from "../components/ImageGrid";
+import Nav from "../components/Nav";
 
 const homepage = () => {
   return (
-    <div>
+    <>
       <Head>
         <title>Nodules of Flint</title>
       </Head>
+      <Nav />
       <ImageGrid />
-    </div>
+    </>
   );
 };
 
