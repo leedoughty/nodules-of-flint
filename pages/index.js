@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import Link from "next/link";
 import landingStyles from "../styles/LandingPage.module.css";
 
@@ -13,7 +12,7 @@ export default function LandingPage() {
           content="Brighton, Beach, Nodules of Flint"
         ></meta>
       </Head>
-      <Image
+      <img
         src="/nodules-of-flint-animation.gif"
         alt="animation showing various flint rocks"
         width="500"
