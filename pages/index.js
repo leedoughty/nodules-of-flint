@@ -1,9 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
+import landingStyles from "../styles/LandingPage.module.css";
 
 export default function LandingPage() {
   return (
-    <div>
+    <section className={landingStyles.container}>
       <Head>
         <title>Nodules of Flint</title>
         <meta
@@ -17,6 +19,9 @@ export default function LandingPage() {
         width="500"
         height="500"
       />
-    </div>
+      <div className={landingStyles.enter}>
+        <Link href="/homepage">Enter</Link>
+      </div>
+    </section>
   );
 }
