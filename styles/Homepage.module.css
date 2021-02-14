@@ -10,3 +10,15 @@
   padding: 5px;
   margin-top: 10px;
 }
+
+.nodule-image {
+  width: 350px;
+  height: 350px;
+}
+
+@media screen and (min-width: 600px) {
+  .nodule-image {
+    width: 250px;
+    height: 250px;
+  }
+}
