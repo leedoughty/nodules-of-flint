@@ -1,3 +1,13 @@
+## About
+
+Nodules of Flint is a project by designer & photographer Paige Scalco, documenting stones collected from Brighton Beach.
+
+This website is an archive of the collection, aimed to create an accessible platform for passers’ by to explore, appreciate and be inspired by their simple beauty.
+
+Website built by Lee Doughty, 2021.
+
+## Development
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
