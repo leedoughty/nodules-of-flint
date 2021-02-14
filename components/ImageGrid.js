@@ -1,7 +1,7 @@
 import homepageStyles from "../styles/Homepage.module.css";
 
 const Grid = () => {
-  const numberOfNodules = 20;
+  const numberOfNodules = 74;
 
   return (
     <section className={homepageStyles.container}>
