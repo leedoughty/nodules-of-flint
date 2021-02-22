@@ -12,11 +12,13 @@ export default function LandingPage() {
           content="Brighton, Beach, Nodules of Flint"
         ></meta>
       </Head>
-      <img
-        className={landingStyles.animation}
-        src="/nodules-of-flint-animation.gif"
-        alt="animation showing various flint rocks"
-      />
+      <a href="/homepage" aria-label="Visit the Nodules of Flint homepage">
+        <img
+          className={landingStyles.animation}
+          src="/nodules-of-flint-animation.gif"
+          alt="animation showing various flint rocks"
+        />
+      </a>
       <div className={landingStyles.enter}>
         <Link href="/homepage">Enter</Link>
       </div>
