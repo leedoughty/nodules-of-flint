@@ -1,17 +1,16 @@
 import Head from "next/head";
-import Link from "next/link";
 import aboutStyles from "../styles/About.module.css";
 
 const about = () => {
   return (
     <section className={aboutStyles.container}>
-      <Link href="/homepage">
+      <a tabindex="0" href="/homepage">
         <img
           className={aboutStyles.arrow}
           alt="Go back to homepage"
           src="/arrow.svg"
         />
-      </Link>
+      </a>
       <Head>
         <title>About</title>
       </Head>
