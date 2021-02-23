@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
 import landingStyles from "../styles/LandingPage.module.css";
 
 export default function LandingPage() {
@@ -20,7 +19,7 @@ export default function LandingPage() {
         />
       </a>
       <div className={landingStyles.enter}>
-        <Link href="/homepage">Enter</Link>
+        <a href="/homepage">Enter</a>
       </div>
     </section>
   );
