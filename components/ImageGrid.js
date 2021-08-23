@@ -8,7 +8,11 @@ const Grid = () => {
     <section className={homepageStyles.container}>
       {_.shuffle([...Array(numberOfNodules).keys()]).map((number, i) => {
         return (
-          <div className={homepageStyles["nodule-of-flint"]} key={i}>
+          <div
+            className={homepageStyles["nodule-of-flint"]}
+            key={i}
+            style={{ border: "1px solid white" }}
+          >
             <img
               className={homepageStyles["nodule-image"]}
               alt="A nodule of flint"
