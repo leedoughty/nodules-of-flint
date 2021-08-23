@@ -3,11 +3,10 @@ import _ from "lodash";
 
 const Grid = () => {
   const numberOfNodules = 90;
-  const randomisedNodulesArray = _.shuffle([...Array(numberOfNodules).keys()]);
 
   return (
     <section className={homepageStyles.container}>
-      {randomisedNodulesArray.map((number, i) => {
+      {_.shuffle([...Array(numberOfNodules).keys()]).map((number, i) => {
         return (
           <div className={homepageStyles["nodule-of-flint"]} key={i}>
             <img
